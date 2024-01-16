@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(234, 213, 213);
+}
+
+.box {
+  margin: 0 auto;
+  width: 650px;
+  height: 300px;
+  margin-top: 13%;
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px 3px rgb(133, 118, 118);
+}
+.box div img {
+  width: 240px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+.box div .n1, .box div h2, .box div .n2, .box div .n3 {
+  margin-top: 30px;
+  font-size: 18px;
+  margin-left: 30px;
+}
+.box div h2 {
+  font-size: 21px;
+}
+.box div .n2 {
+  width: 300px;
+  line-height: 1.4;
+  color: rgb(97, 86, 86);
+}
+.box div .n3 {
+  margin-top: 50px;
+  color: rgb(97, 86, 86);
+}
+.box div .n1 {
+  margin-top: 35px;
+  color: rgb(97, 86, 86);
+}
+.box div .n4 {
+  border: 1px solid;
+  width: 65px;
+  margin-left: 30px;
+  color: rgb(97, 86, 86);
+}/*# sourceMappingURL=styles.css.map */
